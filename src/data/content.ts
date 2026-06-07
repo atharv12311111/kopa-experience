@@ -141,7 +141,7 @@ export const DINING_CATEGORIES = [
     description: 'Michelin-caliber chefs and destination restaurants that make THE KOPA a culinary landmark.',
     icon: '✦',
     examples: ['Chef\'s Table', 'Omakase Bar', 'Steakhouse'],
-    image: '/marcus.jpg',
+    image: '/marcus.png',
   },
   {
     label: 'Immersive F&B',
