@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 type Props = { onOpenModule: (m: 'events' | 'sponsorship' | 'leasing' | null) => void };
 
 export default function Slide03_Location(_: Props) {
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
+  const { ref,_inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
     <div className="slide-container flex flex-col md:flex-row" style={{ background: '#ffffff', overflow: 'hidden' }}>

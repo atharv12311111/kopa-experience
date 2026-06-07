@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+
 import { LUXURY_HIGHLIGHTS } from '../../data/content';
 
 type Props = { onOpenModule: (m: 'events' | 'sponsorship' | 'leasing' | null) => void };

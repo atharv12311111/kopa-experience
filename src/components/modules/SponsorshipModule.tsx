@@ -9,8 +9,8 @@ interface SponsorshipModuleProps {
 export default function SponsorshipModule({ onClose }: SponsorshipModuleProps) {
   const [selectedTier, setSelectedTier] = useState<number | null>(null);
   const [submitted, setSubmitted] = useState(false);
-  const [email, setEmail] = useState('');
-  const [company, setCompany] = useState('');
+  const [_email, setEmail] = useState('');
+  const [_company, setCompany] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
