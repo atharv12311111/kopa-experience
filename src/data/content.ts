@@ -141,28 +141,28 @@ export const DINING_CATEGORIES = [
     description: 'Michelin-caliber chefs and destination restaurants that make THE KOPA a culinary landmark.',
     icon: '✦',
     examples: ['Chef\'s Table', 'Omakase Bar', 'Steakhouse'],
-    image: '/public/sports.jpg',
+    image: '/marcus.jpg',
   },
   {
     label: 'Immersive F&B',
     description: 'Branded dining experiences, concept restaurants, and multi-sensory food environments.',
     icon: '✦',
     examples: ['Immersive Dining', 'Theme Concepts', 'Chef Collabs'],
-    image: '/public/yard.png',
+    image: '/yard.png',
   },
   {
     label: 'Global Food Hall',
     description: 'A world-class international food hall celebrating cuisine from every corner of the globe.',
     icon: '✦',
     examples: ['Japanese Ramen', 'Mexican Street Food', 'Mediterranean'],
-    image: '/public/italy.png',
+    image: '/italy.png',
   },
   {
     label: 'Cafés & Dessert',
     description: 'Artisan coffee roasters, dessert destinations, and specialty beverage concepts.',
     icon: '✦',
     examples: ['Artisan Coffee', 'Gelato', 'Patisserie'],
-    image: '/public/vinatica.png',
+    image: '/vinatica.png',
   },
 ];
 

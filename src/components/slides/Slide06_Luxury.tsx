@@ -10,7 +10,7 @@ export default function Slide06_Luxury({ onOpenModule }: Props) {
       <div className="relative w-[40%] bg-[#f4f4f4] flex items-center justify-center">
         <div className="absolute inset-8 border border-[#c4973a]/30" /> {/* Decorative Frame */}
         <img 
-          src="/public/closet.jpg" 
+          src="/closet.jpg" 
           alt="Luxury wing interior" 
           className="w-[80%] h-[70%] object-cover shadow-2xl" 
         />
